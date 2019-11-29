@@ -1,0 +1,21 @@
+{
+  "name": "@zstack-cmp/demo",
+  "version": "1.0.0",
+  "description": "ZStack-CMP 第三方插件Demo",
+  "license": "MIT",
+  "author": "chu.zhang@zstack.io",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build"
+  },
+  "dependencies": {
+    "@umijs/plugin-qiankun": "^1.1.0",
+    "@zstack-cmp/components": "^1.x",
+    "@zstack-cmp/utils": "^1.x"
+  },
+  "devDependencies": {
+    "mockjs": "^1.1.0",
+    "umi": "^2.8.20",
+    "umi-plugin-react": "^1.9.13"
+  }
+}

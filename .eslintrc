@@ -1,0 +1,18 @@
+{
+  "extends": "eslint-config-umi",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "rules": {
+    "no-restricted-globals":0,
+    "default-case": 0
+  },
+  "globals": {
+    "__APPNAME__": "readonly",
+    "__VERSION__": "readonly",
+    "__SUBAPP__": "readonly"
+  }
+}
